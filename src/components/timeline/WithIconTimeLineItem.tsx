@@ -1,4 +1,4 @@
-tsximport React from "react";
+import React from "react";
 
 const WithIconTimeLineItem = ({ styleName, color, timeLine, children }: any) => {
   const { time, title, description } = timeLine;

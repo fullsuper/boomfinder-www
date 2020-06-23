@@ -17,7 +17,7 @@ const geolocation =
         }
       };
 
-const GeolocationExampleGoogleMap = withGoogleMap(props => (
+const GeolocationExampleGoogleMap = withGoogleMap((props: any) => (
   <GoogleMap defaultZoom={10} center={props.center}>
     {props.center && (
       <InfoWindow position={props.center}>
